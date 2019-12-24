@@ -161,12 +161,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'djangodb_rosamistica',
         'USER': 'root',
-        #'HOST': '51.158.190.224', # Or an IP Address that your DB is hosted on
-        #'PASSWORD': 'Gjc*27911972',
         'HOST': '127.0.0.1', # Or an IP Address that your DB is hosted on
         'PASSWORD': '27911972',
-        #'HOST': '192.168.1.105', # Or an IP Address that your DB is hosted on
-        #'PASSWORD': 'wingo*2018',
         'PORT': '3306',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
@@ -176,12 +172,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'rosamisticadb',
         'USER': 'root',
-        #'HOST': '51.158.190.224', # Or an IP Address that your DB is hosted on
-        #'PASSWORD': 'Gjc*27911972',
         'HOST': '127.0.0.1', # Or an IP Address that your DB is hosted on
         'PASSWORD': 'password',
-        #'HOST': '192.168.1.105', # Or an IP Address that your DB is hosted on
-        #'PASSWORD': 'wingo*2018',
         'PORT': '3306',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
