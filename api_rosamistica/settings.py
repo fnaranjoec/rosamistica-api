@@ -29,17 +29,8 @@ DEBUG = True
 #DEBUG = bool( os.environ.get('DJANGO_DEBUG', False) )
 
 ALLOWED_HOSTS = [
-'163.172.182.218',
 'localhost',
 '127.0.0.1',
-'51.15.91.183',
-'50.28.17.171',
-'68.168.213.77',
-'192.168.1.133',
-'192.168.1.111',
-'192.168.1.116',
-'rosamistica.veritasoft.site',
-'veritasoft.site'
 ]
 
 # Application definition
@@ -79,7 +70,7 @@ EMAIL_USE_TLS = True
 #EMAIL_SSL_CERTFILE=
 #EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_HOST = 'mail.rosamistica.ec'
-EMAIL_HOST_PASSWORD = '@VDJid4cFQQ7'
+EMAIL_HOST_PASSWORD = 'password'
 EMAIL_HOST_USER = 'noreply@rosamistica.ec'
 EMAIL_PORT = 587
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
@@ -114,14 +105,6 @@ CORS_ORIGIN_WHITELIST = (
     '127.0.0.1:8080',
     '127.0.0.1:8000',
     '127.0.0.1:8081',
-    '51.15.91.183',
-    '50.28.17.171',
-    '68.168.213.77',
-    '192.168.1.133:8080',
-    '192.168.1.111:8080',
-    '192.168.1.116:8080',
-    'rosamistica.veritasoft.site',
-    'veritasoft.site',
 )
 
 
@@ -196,7 +179,7 @@ DATABASES = {
         #'HOST': '51.158.190.224', # Or an IP Address that your DB is hosted on
         #'PASSWORD': 'Gjc*27911972',
         'HOST': '127.0.0.1', # Or an IP Address that your DB is hosted on
-        'PASSWORD': '27911972',
+        'PASSWORD': 'password',
         #'HOST': '192.168.1.105', # Or an IP Address that your DB is hosted on
         #'PASSWORD': 'wingo*2018',
         'PORT': '3306',
